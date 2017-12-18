@@ -39,6 +39,7 @@ module.exports = {
   },
   // add your custom rules here
   rules: {
+    "linebreak-style":0,
     "class-methods-use-this":0,
     "no-console":0,
     "no-unused-vars": 0,
