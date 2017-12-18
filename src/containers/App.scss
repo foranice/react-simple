@@ -1,0 +1,13 @@
+
+#app-page{
+  display: flex;
+  width:400px;
+  height:400px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
