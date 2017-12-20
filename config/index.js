@@ -10,7 +10,15 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+      '/fcgi-bin': {
+        target: 'http://cgi.music.soso.com',
+        changeOrigin: true,
+        cookieDomainRewrite: {
+          '*': '',
+        },
+      },
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

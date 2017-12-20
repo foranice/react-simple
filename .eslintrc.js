@@ -15,7 +15,6 @@ module.exports = {
   // required to lint *.vue files
   plugins: [
     'html',
-    "redux-saga",
     "react",
     "jsx-a11y"
   ],
@@ -62,6 +61,10 @@ module.exports = {
     }],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'react/jsx-no-undef':1
+    'react/jsx-no-undef':1,
+    'semi': [
+      'error',
+      'never'
+    ]
   }
 }

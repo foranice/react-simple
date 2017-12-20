@@ -1,0 +1,19 @@
+.input{
+  display: flex;
+  align-self: center;
+  height: 30px;
+  padding: 2px;
+}
+.input .button {
+  border: 1px solid skyblue;
+}
+.searchMusic{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-between;
+  padding: 5px;
+}
+.searchMusic ul{
+  height: 400px;
+}

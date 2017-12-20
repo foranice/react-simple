@@ -2,3 +2,7 @@ $nav-color: #ff46d2;
 p{
   color: $nav-color;
 }
+.hello{
+  cursor: pointer;
+  user-select: none;
+}
