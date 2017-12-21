@@ -23,7 +23,6 @@ exports.styleLoaders = function (options) {
           loader: require.resolve('css-loader'),
           options: {
             importLoaders: 2,
-            modules:true
           },
         },
         {
